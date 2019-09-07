@@ -19,5 +19,9 @@ class ViewController: UIViewController {
         super.viewWillAppear(true)
         view.backgroundColor = UIColor.red
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(true)
+    }
 }
 
